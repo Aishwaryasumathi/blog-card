@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(245,208,78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+}
+.container{
+    background-color: white;
+    padding: 24px;
+    overflow: hidden;
+    width:400px;
+    border-radius: 20px;  
+    box-shadow: 20px 20px 0px 0px black;
+    
+   
+}
+svg{
+    border-radius: 20px;
+    margin-bottom: 24px;
+    width: 336px;
+}
+#heading{
+    font-weight: 900;
+    width: 20%;
+    background-color:rgb(245,208,78) ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#para{
+    font-weight: 500;
+}
+#main{
+    color: rgb(245,208,78);
+    
+}
+#mainp{
+    color: hsl(0, 0%, 50%);
+    line-height: 25px;
+    font-size: 16px;
+    word-spacing: 5px;
+
+}
+.box2{
+    display: flex;
+    
+}
+.box2 p{
+    padding: 12px;
+    font-weight: 900;
+    margin-left: 12px;
+}
+.box2 img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
